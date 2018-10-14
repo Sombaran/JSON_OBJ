@@ -16,6 +16,7 @@ json_object * name = json_object_object_get(obj,"bank");
 json_object * age = json_object_object_get(obj,"account_type");
 json_object * city = json_object_object_get(obj,"card_type");
 std::cout << json_object_get_string(obj) << std::endl;
+/* Free the JSON pointer */
 json_object_put(obj);
 return(0);
 }
