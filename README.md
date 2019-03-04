@@ -5,5 +5,5 @@ Created by Sombaran Gupta. For any further query email me @ guptasombaran@yahoo.
 Dependency JSON-C Library.
 This file uses JSON-C library to parse JSON String and creates JSON Object.
 This is C++ managed build code in Eclipse.
-Compile g++ json_obj.cpp -ljson-c -fpermissive -std=c++11
+Compile g++ json_obj.cpp -ljson-c - -std=c++11 -Wall
 
